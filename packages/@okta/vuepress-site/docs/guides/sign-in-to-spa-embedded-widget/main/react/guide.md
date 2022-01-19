@@ -95,8 +95,8 @@ const oktaSignInConfig = {
     // instead of the Authorization Code with Proof of Code Key Exchange (PKCE)
     // you will need to uncomment the below line
     // pkce: false
-  useInteractionCodeFlow: true,
   }
+ useInteractionCodeFlow: true,
   // Additional documentation on config options can be found at https://github.com/okta/okta-signin-widget#basic-config-options
 };
 
